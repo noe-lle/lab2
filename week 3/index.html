@@ -1,37 +1,78 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Profile</title>
-    </head>
-    <body>
+<head>
+<style>
+h1 {
+  background-image: url("https://i.ebayimg.com/images/g/CDMAAOSwz5NjKl0t/s-l1200.jpg");
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+ }
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #177F93;
+  padding: 20px; 
+  width: 1470px;
+  height: 150px;
+  text-align: center;
+  font-family: "Lucida Handwriting", cursive;
+}
+#rcorners1 {
+  border-radius: 25px;
+  background: #45A4B6;
+  padding: 20px; 
+  width: 1470px;
+  height: 300px;  
+  text-align: center;
+  color: white;
+  font-family: "Lucida Console", monospace;
+}
+div {
+  border: 1px solid black;
+  background-color: lightblue;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 70px;
+}
 
-    <h1>Profile</h1>
-	
-	<img src="cat.jpg" alt="pityur"m height="200" width="200">
-    
-    <h2>Basic info</h2>
-    
-    <ul>
-	<li> Althea Noelle Sarmiento </li>
-	<li> Noelle / Thea </li>
-	<li> 19 years old </li>
-	</ul>
-    
- <h3>2.1 HTML Headings</h3>
-    <p> HTML Headings <p>
-<p> HTML headings are defined with the < h1 > to < h6 > tags. <p>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-<p> <strong> < h1 > defines the most important heading. </strong> </p> 
-<p> <em> < h6 > defines the least important heading. </em> </p>
+li {
+  float: left;
+}
 
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
+li a:hover {
+  background-color: #111;
+</style>
+</head>
 
-    </body>
+<body>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+
+<h1> <br> <br> Althea Noelle Sarmiento <br> <br> </h1>
+<p id="rcorners2"> <br> <br> 19 years old <br> CS Student <br> Asia Pacific College</p>
+<p id="rcorners1"> <img src="https://imageio.forbes.com/specials-images/imageserve/647a483d96bd8c23c5e64fed/Opening-Night-of-Taylor-Swift---The-Eras-Tour/0x0.jpg?format=jpg&crop=2720,1815,x360,y218,safe&width=960" alt="Taylor Swift" style="width:250px;height:250px;"> <br> <br> <strong> Live, Love, Taylor Swift </strong> </p>
+</body>
 </html>
