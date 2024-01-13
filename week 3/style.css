@@ -11,7 +11,7 @@ body
 {
 	min-height: 100vh;
 	overflow-x: hidden;
-	background: linear-gradient(#F8C345, #BE3815);
+	background: linear-gradient(#E56EA9, #A40550);
 }
 header
 {
@@ -76,7 +76,7 @@ section::before
 	bottom: 0;
 	width: 100%;
 	height: 10%;
-	background: linear-gradient(to top,#BE3815,transparent);
+	background: linear-gradient(to top,#A40550,transparent);
 	z-index: 1000;
 }
 section img
@@ -113,7 +113,7 @@ section img#front2
 	padding: 8px 30px;
 	border-radius: 40px;
 	background: #fff;
-	color: #CD0B10;
+	color: #A40550;
 	font-size: 1.5em;
 	z-index: 9;
 	transform: translateY(100px);
@@ -122,13 +122,18 @@ section img#front2
 {
 	position: relative;
 	padding: 100px;
-	background: #BE3815;
+	background: #A40550;
 }
 .sec h2
 {
 	font-size: 3.5em;
 	margin-bottom: 10px;
 	color: #fff;
+}
+.sec img#me {
+  width: 400px;
+  height: 400px;
+  float: right;
 }
 .sec p
 {
