@@ -53,11 +53,11 @@ header ul li a
 }
 header ul li a:hover {
     background: #fff;
-    color: #CD0B10;
+    color: #A40550;
 }
 header ul li a.active {
     background: #fff;
-    color: #CD0B10;
+    color: #A40550;
 }
 section
 {
