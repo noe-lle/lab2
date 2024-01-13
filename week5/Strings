@@ -13,5 +13,3 @@ To find the length of a string, use the built-in length property:
 \r	Carriage Return
 \t	Horizontal Tabulator
 \v	Vertical Tabulator
-
-
