@@ -1,0 +1,10 @@
+Very often, in programming, you will need a data type that can only have one of two values, like
+YES / NO
+ON / OFF
+TRUE / FALSE
+
+The chapter JS Comparisons gives a full overview of comparison operators.
+The chapter JS If Else gives a full overview of conditional statements.
+
+Normally JavaScript booleans are primitive values created from literals:
+But booleans can also be defined as objects with the keyword new:
