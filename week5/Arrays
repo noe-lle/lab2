@@ -1,0 +1,15 @@
+An array is a special variable, which can hold more than one value:
+
+Using an array literal is the easiest way to create a JavaScript Array.
+// const array_name = [item1, item2, ...];  
+
+Spaces and line breaks are not important. A declaration can span multiple lines:
+
+const cars = [
+  "Saab",
+  "Volvo",
+  "BMW"
+];
+
+The following example also creates an Array, and assigns values to it:
+const cars = new Array("Saab", "Volvo", "BMW");
