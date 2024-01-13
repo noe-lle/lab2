@@ -1,0 +1,24 @@
+JavaScript Date Objects let us work with dates:
+
+Date objects are created with the new Date() constructor.
+new Date()
+new Date(date string)
+
+new Date(year,month)
+new Date(year,month,day)
+new Date(year,month,day,hours)
+new Date(year,month,day,hours,minutes)
+new Date(year,month,day,hours,minutes,seconds)
+new Date(year,month,day,hours,minutes,seconds,ms)
+
+new Date(milliseconds)
+
+new Date() creates a date object with the current date and time:
+new Date(date string) creates a date object from a date string:
+new Date(year, month, ...) creates a date object with a specified date and time.
+new Date(milliseconds) creates a new date object as milliseconds plus zero time:
+JavaScript will (by default) output dates using the toString() method. This is a string representation of the date, including the time zone. The format is specified in the ECMAScript specification:
+
+The toDateString() method converts a date to a more readable format:
+The toUTCString() method converts a date to a string using the UTC standard:
+The toISOString() method converts a date to a string using the ISO standard:

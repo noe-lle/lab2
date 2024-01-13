@@ -1,0 +1,15 @@
+Strings are for storing text
+Strings are written with quotes
+
+To find the length of a string, use the built-in length property:
+
+\ '	'	Single quote
+\ "	"	Double quote
+\\	\	Backslash
+
+\b	Backspace
+\f	Form Feed
+\n	New Line
+\r	Carriage Return
+\t	Horizontal Tabulator
+\v	Vertical Tabulator
