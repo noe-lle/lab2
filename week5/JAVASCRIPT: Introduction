@@ -2,3 +2,8 @@ JavaScript is the world's most popular programming language.
 JavaScript is the programming language of the Web.
 
 JavaScript is used to program the behavior of web pages
+
+getElementById() = "finds" an HTML element (with id="demo"), and changes the element content (innerHTML) to "Hello JavaScript"
+JavaScript changes the value of the src (source) attribute of an <img> tag
+
+Hiding HTML elements can be done by changing the display style
