@@ -76,7 +76,7 @@ section::before
 	bottom: 0;
 	width: 100%;
 	height: 10%;
-	background: linear-gradient(to top,#A40550,transparent);
+	background: linear-gradient(to top, #A40550, transparent);
 	z-index: 1000;
 }
 section img
