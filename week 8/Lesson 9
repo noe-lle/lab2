@@ -1,0 +1,15 @@
+PHP Array Types
+In PHP, there are three types of arrays:
+
+Indexed arrays - Arrays with a numeric index
+Associative arrays - Arrays with named keys
+Multidimensional arrays - Arrays containing one or more arrays
+
+Working With Arrays
+In this tutorial you will learn how to work with arrays, including:
+
+Create Arrays
+Access Arrays
+Update Arrays
+Remove Array Items
+Sort Arrays
