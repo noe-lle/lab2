@@ -1,0 +1,24 @@
+Strings
+Strings in PHP are surrounded by either double quotation marks, or single quotation marks.
+
+Example
+Double quoted string literals perform operations for special characters:
+
+$x = "John";
+echo "Hello $x";
+
+Single quoted strings does not perform such actions, it returns the string like it was written, with the variable name:
+
+Example
+Single quoted string literals returns the string as it is:
+
+$x = "John";
+echo 'Hello $x';
+
+String Length
+The PHP strlen() function returns the length of a string.
+
+Example
+Return the length of the string "Hello world!":
+
+echo strlen("Hello world!");
